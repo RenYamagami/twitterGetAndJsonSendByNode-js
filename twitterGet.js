@@ -2,7 +2,6 @@ var request = require('request');
 var twit = require('twit');
 var http = require('http');
 var fs = require('fs');
-
 var file = 'twitter.json';
 var tweet= new twit({
   consumer_key: '9Qo0O9GkcIdYuhIdwL0Nnze4Z',
